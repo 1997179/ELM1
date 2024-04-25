@@ -59,7 +59,7 @@ if wxpusher_alluid is None:
 # 可以自己设置一个环境变量在外面调用，默认自定义变量名 bd_zdyblm，默认不设置是bd_mttoken来调用ck
 blname = os.environ.get("bd_zdyblm")
 if blname is None:
-    blname = 'bd_mttoken'
+    blname = 'mttoken'
 
 # 自定义变量分隔符，默认是 & 或者 新建变量。比如需要换行分割就改成 \n。
 # 可以自己设置一个环境变量在外面调用，默认自定义分割变量名 bd_zdyblm，值 &
